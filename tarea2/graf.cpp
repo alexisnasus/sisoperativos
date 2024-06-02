@@ -71,7 +71,7 @@ int sem_limit = M_CONCURRENCY;
 int cont = 0;
 
 
-void findRoute(sem_t &sem){
+void findRoutes(sem_t &sem){
 
     sem_wait(&sem);
 
@@ -105,5 +105,11 @@ int main() {
     }
 
     printGraph(graph, NODES);
+
+
+    thread threads[N_THREADS];/*
+    for(int i = 0; i < N_THREADS; i++){
+        threads[i] = thread(findRoutes, i);
+    }*/
     return 0;
 }
