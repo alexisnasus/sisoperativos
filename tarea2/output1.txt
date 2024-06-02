@@ -1,0 +1,205 @@
+alexis@pcxd:~/Documents/sisop/tarea2$ ./graf
+
+Nodos adyacentes al nodo 0
+ -> 14 (costo: 36) 
+ -> 16 (costo: 7) 
+ -> 2 (costo: 21) 
+ -> 9 (costo: 28) 
+ -> 19 (costo: 2) 
+ -> 17 (costo: 39) 
+ -> 15 (costo: 16) 
+
+
+Nodos adyacentes al nodo 1
+ -> 12 (costo: 30) 
+ -> 6 (costo: 22) 
+ -> 15 (costo: 28) 
+ -> 14 (costo: 37) 
+ -> 17 (costo: 1) 
+ -> 19 (costo: 11) 
+ -> 3 (costo: 12) 
+
+
+Nodos adyacentes al nodo 2
+ -> 14 (costo: 30) 
+ -> 12 (costo: 37) 
+ -> 15 (costo: 16) 
+ -> 19 (costo: 29) 
+ -> 5 (costo: 32) 
+ -> 6 (costo: 31) 
+ -> 4 (costo: 17) 
+ -> 9 (costo: 22) 
+ -> 8 (costo: 29) 
+
+
+Nodos adyacentes al nodo 3
+ -> 12 (costo: 3) 
+ -> 6 (costo: 36) 
+ -> 15 (costo: 22) 
+ -> 4 (costo: 35) 
+ -> 10 (costo: 12) 
+ -> 16 (costo: 1) 
+ -> 14 (costo: 2) 
+ -> 8 (costo: 26) 
+ -> 13 (costo: 32) 
+
+
+Nodos adyacentes al nodo 4
+ -> 6 (costo: 18) 
+ -> 13 (costo: 22) 
+ -> 12 (costo: 9) 
+ -> 7 (costo: 39) 
+ -> 10 (costo: 8) 
+ -> 17 (costo: 38) 
+ -> 18 (costo: 12) 
+
+
+Nodos adyacentes al nodo 5
+ -> 11 (costo: 3) 
+ -> 13 (costo: 33) 
+ -> 19 (costo: 36) 
+ -> 17 (costo: 17) 
+ -> 9 (costo: 5) 
+ -> 16 (costo: 13) 
+
+
+Nodos adyacentes al nodo 6
+ -> 7 (costo: 25) 
+ -> 13 (costo: 21) 
+ -> 8 (costo: 18) 
+ -> 18 (costo: 25) 
+ -> 11 (costo: 26) 
+ -> 14 (costo: 39) 
+ -> 10 (costo: 8) 
+ -> 15 (costo: 20) 
+
+
+Nodos adyacentes al nodo 7
+ -> 19 (costo: 26) 
+ -> 9 (costo: 29) 
+ -> 13 (costo: 9) 
+ -> 14 (costo: 13) 
+ -> 8 (costo: 4) 
+ -> 11 (costo: 35) 
+ -> 18 (costo: 13) 
+
+
+Nodos adyacentes al nodo 8
+ -> 19 (costo: 14) 
+ -> 14 (costo: 29) 
+ -> 13 (costo: 36) 
+ -> 17 (costo: 26) 
+ -> 9 (costo: 37) 
+
+
+Nodos adyacentes al nodo 9
+ -> 14 (costo: 27) 
+ -> 17 (costo: 8) 
+ -> 13 (costo: 15) 
+ -> 19 (costo: 23) 
+ -> 16 (costo: 23) 
+ -> 10 (costo: 12) 
+
+
+Nodos adyacentes al nodo 10
+ -> 16 (costo: 5) 
+ -> 18 (costo: 39) 
+ -> 13 (costo: 29) 
+ -> 15 (costo: 38) 
+ -> 17 (costo: 36) 
+
+
+Nodos adyacentes al nodo 11
+ -> 15 (costo: 9) 
+ -> 18 (costo: 34) 
+ -> 19 (costo: 20) 
+ -> 12 (costo: 31) 
+ -> 17 (costo: 11) 
+
+
+Nodos adyacentes al nodo 12
+ -> 16 (costo: 28) 
+ -> 13 (costo: 19) 
+ -> 17 (costo: 12) 
+ -> 19 (costo: 38) 
+ -> 15 (costo: 17) 
+
+
+Nodos adyacentes al nodo 13
+ -> 14 (costo: 14) 
+ -> 18 (costo: 12) 
+ -> 19 (costo: 29) 
+ -> 16 (costo: 20) 
+ -> 15 (costo: 39) 
+
+
+Nodos adyacentes al nodo 14
+ -> 18 (costo: 33) 
+ -> 17 (costo: 20) 
+ -> 15 (costo: 11) 
+
+
+Nodos adyacentes al nodo 15
+ -> 17 (costo: 1) 
+ -> 16 (costo: 21) 
+ -> 18 (costo: 9) 
+
+
+Nodos adyacentes al nodo 16
+ -> 19 (costo: 28) 
+ -> 18 (costo: 36) 
+ -> 17 (costo: 14) 
+
+
+Nodos adyacentes al nodo 17
+ -> 18 (costo: 4) 
+ -> 19 (costo: 25) 
+
+
+Nodos adyacentes al nodo 18
+ -> 19 (costo: 39) 
+
+
+Nodos adyacentes al nodo 19
+
+Thread 1 encontró una nueva mejor ruta con costo: 81
+Thread 0 encontró una nueva mejor ruta con costo: 81
+Thread 4 encontró una nueva mejor ruta con costo: 108
+Thread 5 encontró una nueva mejor ruta con costo: 108
+Thread 7 encontró una nueva mejor ruta con costo: 99
+Thread 2 encontró una nueva mejor ruta con costo: 96
+Thread 8 encontró una nueva mejor ruta con costo: 73
+Thread 3 encontró una nueva mejor ruta con costo: 99
+Thread 11 encontró una nueva mejor ruta con costo: 108
+Thread 16 encontró una nueva mejor ruta con costo: 81
+Thread 10 encontró una nueva mejor ruta con costo: 108
+Thread 14 encontró una nueva mejor ruta con costo: 81
+Thread 15 encontró una nueva mejor ruta con costo: 108
+Thread 3 encontró una nueva mejor ruta con costo: 73
+Thread 17 encontró una nueva mejor ruta con costo: 81
+Thread 6 encontró una nueva mejor ruta con costo: 95
+Thread 19 encontró una nueva mejor ruta con costo: 81
+Thread 18 encontró una nueva mejor ruta con costo: 143
+Thread 6 encontró una nueva mejor ruta con costo: 81
+Thread 9 encontró una nueva mejor ruta con costo: 81
+Thread 13 encontró una nueva mejor ruta con costo: 108
+Thread 1 encontró una nueva mejor ruta con costo: 73
+Thread 4 encontró una nueva mejor ruta con costo: 99
+Thread 11 encontró una nueva mejor ruta con costo: 81
+Thread 7 encontró una nueva mejor ruta con costo: 81
+Thread 13 encontró una nueva mejor ruta con costo: 91
+Thread 18 encontró una nueva mejor ruta con costo: 81
+Thread 12 encontró una nueva mejor ruta con costo: 91
+Thread 15 encontró una nueva mejor ruta con costo: 99
+Thread 5 encontró una nueva mejor ruta con costo: 99
+Thread 15 encontró una nueva mejor ruta con costo: 95
+Thread 10 encontró una nueva mejor ruta con costo: 91
+Thread 15 encontró una nueva mejor ruta con costo: 81
+Thread 2 encontró una nueva mejor ruta con costo: 81
+Thread 6 encontró una nueva mejor ruta con costo: 73
+Thread 0 encontró una nueva mejor ruta con costo: 73
+Thread 13 encontró una nueva mejor ruta con costo: 73
+Thread 12 encontró una nueva mejor ruta con costo: 81
+Mejor costo final: 73
+Encontrado por el thread: 0
+Mejor ruta final: 0 -> 14 -> 15 -> 17 -> 19 -> FIN
