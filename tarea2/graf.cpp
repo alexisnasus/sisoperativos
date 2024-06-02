@@ -7,9 +7,11 @@
 #include <utility>
 #include <semaphore.h>
 #include <thread>
+#include <stack>
 
 #define NODES 20 // nodos
 #define M_CONCURRENCY 3
+#define N_THREADS 20
 
 
 using namespace std;
@@ -20,8 +22,10 @@ struct Node {
     struct Node *next;
 };
 
-struct route {
-    int suma = 0;
+struct Route {
+    int suma = n->cost;
+    stack<Node> passed; 
+    struct Node *n;
 };
 
 struct List {
@@ -61,33 +65,29 @@ void printGraph(struct Graph *graph, int V) {
     }
 }
 
-
-sem_t sem;
+sem_t sem[NODES];
+struct Route hilo[N_THREADS];
 int sem_limit = M_CONCURRENCY;
+int cont = 0;
 
 
-void* findRoute(void* arg) {
-    int id_thread = *(int*)arg;
+void findRoute(sem_t &sem){
 
     sem_wait(&sem);
 
     sem_limit--;
-    printf("Thread %d compró un ticket. Tickets disponibles: %d\n", id_thread, sem_limit);
+    printf("Thread %d compró un ticket. Tickets disponibles: %d\n", 1, sem_limit);
 
     sem_post(&sem);
-
-    return NULL;
 }
 
 int main() {
     srand(time(0)); // semilla para la aleatoriedad
-
-    
     struct Graph *graph = createGraph(NODES);
 
     // Generar aristas aleatorias sin ciclos
     for (int i = 0; i < NODES; ++i) { // recorrer los nodos
-        int numEdges = 1 + rand() % 5; // número aleatorio de aristas para cada nodo
+        int numEdges = 5 + rand() % 7; // número aleatorio de aristas para cada nodo
         set<pair<int, int>> existingEdges; // para asegurar costos únicos por arista
         for (int j = 0; j < numEdges; ++j) { // agregar aristas aleatoriamente a los nodos
             if (i < NODES - 1) { // asegúrese de que no intentemos generar un destino ilegal
