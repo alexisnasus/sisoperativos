@@ -23,8 +23,8 @@ struct Node {
 };
 
 struct Route {
-    int suma = n->cost;
-    stack<Node> passed; 
+    int suma = 0;
+    stack<Node*> passed; 
     struct Node *n;
 };
 
