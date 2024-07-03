@@ -1,5 +1,8 @@
 
+# Para compilar, usar **gcc filesystem.c -o fs -lncurses**
+
 # Comandos Disponibles
+
 
 1. **help**:
    - **Descripción**: Muestra un mensaje de ayuda con la lista de comandos disponibles y sus descripciones.
